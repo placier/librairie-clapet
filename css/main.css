@@ -16,10 +16,20 @@ body {
   color: #303044;
 }
 
+.citation1 {
+  margin: 5px 0;
+  color:#e8a27d;
+}
+
+.citation2 {
+  margin: 5px 0;
+  color:#e8a27d;
+}
 p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea {
   font-size: 1.4em;
   line-height: 1.4;
 }
+
 
 li {
   margin: 5px 0;
@@ -528,3 +538,4 @@ button {
   font-family: Montserrat;
   font-size: 64px;
 }
+
