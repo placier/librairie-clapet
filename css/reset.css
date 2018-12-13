@@ -423,3 +423,26 @@ select {
 
 input, select, textarea, label {
   vertical-align: middle; }
+/**
+* separator
+*/
+.separator,
+.separator::after {
+  display: block;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-bottom: 100px;
+  margin-left: auto;
+  width: 200px;
+  height: 1px;
+  border: none;
+  background-color: #d9d9d9;
+  top: 45%;
+  Left: 15%;
+  transform: rotate(20deg);
+}
+
+.separator::after {
+  content: "";
+  transform: rotate(-40deg);
+}
