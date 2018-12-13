@@ -200,9 +200,10 @@ button {
 
 .chapo {
   font-size: 25px;
-  width: 960px;
+  width: 600px;
+  height: 87px;
+  text-align: justify;
   margin: auto;
-  text-align: center;
 }
 
 .full-width {
@@ -230,7 +231,7 @@ button {
   width: 1440px;
   max-width: 100%;
   height: 350px;
-  background: url("../img/header-bg.jpeg");
+  background: url("../img/background.png");
   background-size: cover;
   background-position: center bottom;
   overflow: hidden;
@@ -241,8 +242,6 @@ button {
   display: block;
   margin: 0;
   position: absolute;
-  padding-top: 20px;
-  padding-bottom: 25px;
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -260,6 +259,7 @@ button {
   height: 78px;
   font-weight: bold;
   margin: 0;
+  margin-top: 105.8px;
 }
 
 .header__subtitle {
@@ -269,6 +269,8 @@ button {
   font-weight: 200;
   height: 52px;
   text-shadow: 1px 1px 5px #000;
+  margin-top: 30px;
+  margin-bottom: 19px;
 }
 
 
@@ -404,8 +406,8 @@ button {
   font-weight: bold;
   font-size: 2em;
   line-height: 1.4;
-  width: 1200px;
-  height: 800px;
+  width: 560px;
+  height: 844px;
 }
 
 .news__text {
