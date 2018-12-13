@@ -101,6 +101,8 @@ button {
 .text-container {
   margin: auto;
   max-width: 960px;
+  margin-top: 76px;
+  margin-bottom: 50px;
 }
 
 .columns {
