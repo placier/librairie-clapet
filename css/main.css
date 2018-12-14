@@ -238,8 +238,8 @@ button {
 .chapo {
   font-size: 25px;
   max-width: 600px;
-  margin: left;
-
+  margin: auto;
+  
 }
 
 .chapo-center {
@@ -446,8 +446,6 @@ button {
   font-weight: bold;
   font-size: 2em;
   line-height: 1.4;
-  width: 560px;
-  height: 844px;
 }
 
 .news__text {
@@ -488,11 +486,38 @@ button {
   margin-bottom: 35px;
 }
 
-.news-list .news-list__news--main {
-  grid-column: span 3;
+.news-list-2 {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  margin-bottom: 35px;
 }
 
+
+
 .news-list__news {
+  grid-column: span 1;
+}
+
+
+.grande-actus {
+  grid-column: span 4;
+}
+
+.news-list-m-actu {
+  grid-column: span 2;
+}
+
+.bloc2 {
+  grid-column: span 2;
+}
+
+.bloc4 {
+  grid-column: span 4;
+}
+
+.bloc5 {
   grid-column: span 1;
 }
 
